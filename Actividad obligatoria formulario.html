@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad formulario</title>
+    <style>
+        body{
+            background-color: pink;
+            color: #362126;
+            font-family: 'Courier New', Courier, monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #dni, #user, #contraseña {
+            color: rgb(92, 31, 44);
+            font-weight: bolder;
+        }
+    .btn{
+        background-color: #fce1dc;
+        color: rgb(95, 76, 76);
+        }
+    </style>
+</head>
+<body>
+    <p><b>Acceso al sistema</b></p>
+     <form action="datos" method="post">
+        DNI <input type="number" name="Documento" id="dni"> <br><br>   
+        Usuario <input type="text" name="Usuario" id="user"> <br><br>
+        Clave <input type="password" name="Contraseña" id="contraseña"><br><br>
+        <input type="button" value="Ingresar" class="btn">
+    </form>
+</body>
+</html>
