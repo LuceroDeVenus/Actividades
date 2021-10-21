@@ -84,8 +84,7 @@ const comprarTickets=()=>{
                                 <button type="reset" onclick="limpiar()" class="btn btn-codo btn-success btn-block">Borrar</button>
                             </div>
                             <div class="form-group col">
-                                <button type="button" id="botonCalcular" class="btn btn-success btn-codo btn-block" 
-                                data-bs-toggle="modal" data-bs-target="#exampleModal">Resumen</button>
+                                <button type="button" id="botonCalcular" class="btn btn-success btn-codo btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Resumen</button>
                             </div>
                     </div>
                 </form>
