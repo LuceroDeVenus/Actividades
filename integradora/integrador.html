@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integradora 2160</title>
-    <link rel="icon" href="./img/codoacodo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="/img/codoacodo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./img/codoacodo.png" alt="logo codo a codo" width="100px" height="60px" class="d-inline-block align-text">
+            <img src="/img/codoacodo.png" alt="logo codo a codo" width="100px" height="60px" class="d-inline-block align-text">
             Conf Bs As
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,20 +25,22 @@
               <a class="nav-link" href="#">Los oradores</a>
               <a class="nav-link" href="#">El lugar y la fecha</a>
               <a class="nav-link" href="#">Conviértete en orador</a>
-              <a class="nav-link text-success" href="#">Comprar tickets</a>
+              <a class="nav-link text-success" onclick="comprarTickets()">Comprar tickets</a>
             </div>
           </div>
         </div>
       </nav>
+   <section id="section">
       <!--imagen principal-->
-
+      <main>
       <div class="card bg-dark text-white">
-        <img src="./img/ba1.jpg" class="principal">
+        <img src="/img/ba1.jpg" class="principal">
               <div id="textoprin" class="card-img-overlay text-end">
           <h5 class="card-title fs-2">Conf Bs As</h5>
           <p class="card-text fs-6">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!</p>
           <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-          <button type="button" id="comprar" class="btn btn-success">Comprar tickets</button>
+          <button type="button" id="comprar" class="btn btn-success boton2" onclick="comprarTickets()">Comprar tickets
+        </button>
         </div>
     </div>
 
@@ -52,7 +54,7 @@
 
         <!--Steve Jobs-->
           <div id="lascard" class="card col-3">
-              <img src="./img/steve.jpg" class="card-img-top" alt="...">
+              <img src="/img/steve.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <button type="button" class="btn btn-warning btn-sm"><b>JavaScript</b></button>  <button type="button" id="react" class="btn btn-info btn-sm"><b>React</b></button>
                 <h5 class="card-title">Steve Jobs</h5>
@@ -62,7 +64,7 @@
 
           <!--Bill Gates-->
           <div id="lascard" class="card col-3">
-            <img src="./img/bill.jpg" class="card-img-top" alt="...">
+            <img src="/img/bill.jpg" class="card-img-top" alt="...">
             <div class="card-body">             
                <button type="button" class="btn btn-warning btn-sm"><b>JavaScript</b></button>  <button type="button" id="react" class="btn btn-info btn-sm"><b>React</b></button>
                 <h5 class="card-title">Bill Gates</h5>
@@ -72,7 +74,7 @@
 
           <!--Ada Lovelace-->
           <div id="lascard" class="card col-3">
-            <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+            <img src="/img/ada.jpeg" class="card-img-top" alt="...">
             <div class="card-body">            
               <button type="button" class="btn btn-secondary btn-sm"><b>Negocios</b></button>  <button type="button" class="btn btn-danger btn-sm"><b>Startups</b></button>
               <h5 class="card-title">Ada Lovelace</h5>
@@ -88,7 +90,7 @@
 <div class="container-fluid">  
   <div class="row">
     <div class="col">
-            <img src="./img/honolulu.jpg" alt="playa" class="img-fluid">
+            <img src="/img/honolulu.jpg" alt="playa" class="img-fluid">
         </div>
     <div id="bsasinfo" class="col">
             <h4>Bs As - Octubre</h4>
@@ -129,6 +131,10 @@
         </div>
     </div>
 </div>
+
+      </main>
+   
+      </section>
 <!-- footer -->
 <footer>
     <div class="footer p-2">
@@ -145,6 +151,9 @@
     </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="./apps.js"></script>
 </body>
 </html>
 
