@@ -46,9 +46,10 @@ footer{
     color: white;
     background-color: #17a2b7!important 
 }; 
+
 .btn-codo{
         background-color: #97c93e !important;
         color: white;
         width: 98%;
         margin-bottom: 5%;
-      }
+};
